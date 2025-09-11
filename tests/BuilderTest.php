@@ -2,9 +2,11 @@
 
 namespace Bitsnbolts\CursorPaginate\Tests;
 
+use PHPUnit\Framework\Attributes\Test;
+
 class BuilderTest extends TestCase
 {
-    /** @test */
+    #[Test]
     public function it_can_paginate_records()
     {
         (new TestModelFactory)->count(22)->create();
@@ -13,7 +15,7 @@ class BuilderTest extends TestCase
         $this->assertCount(10, $paginator->items());
     }
 
-    /** @test */
+    #[Test]
     public function it_has_a_next_cursor_url_if_there_are_items_left()
     {
         (new TestModelFactory)->count(11)->create();
