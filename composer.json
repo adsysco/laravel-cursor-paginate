@@ -1,11 +1,11 @@
 {
-    "name": "bitsnbolts/laravel-cursor-paginate",
+    "name": "adsysco/laravel-cursor-paginate",
     "description": "Cursor based pagination for Laravel",
     "keywords": [
-        "bitsnbolts",
+        "adsysco",
         "laravel-cursor-paginate"
     ],
-    "homepage": "https://github.com/bitsnbolts/laravel-cursor-paginate",
+    "homepage": "https://github.com/adsysco/laravel-cursor-paginate",
     "license": "MIT",
     "authors": [
         {
